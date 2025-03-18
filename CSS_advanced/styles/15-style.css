@@ -1,9 +1,6 @@
+/** Add universal box-sizing **/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-
-* {
-    box-sizing: border-box;
-}
 
 :root {
     --color-primary: #d73953;
@@ -49,6 +46,9 @@ html {
     font-size: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+}
 a {
     color: var(--text-color);
     text-decoration: none;
