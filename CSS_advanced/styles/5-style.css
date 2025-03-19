@@ -1,4 +1,3 @@
-/** Variables for the font size **/
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -10,6 +9,7 @@
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+    /* Custom properties for font sizes */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
@@ -17,14 +17,14 @@
     --font-size-xx-large: 4.8rem;
 }
 
+html {
+    font-size: 62.5%; /* Sets the base font size to 62.5% of the normal size */
+}
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-}
-
-html {
-    font-size: 62.5%;
+    font-size: var(--font-size-medium); /* Sets the body font size to medium */
 }
 
 a {
